@@ -40,3 +40,10 @@ details[open] summary::after{content:"–"}
 details p{padding-bottom:18px}
 footer{padding-top:26px;padding-bottom:48px;margin-top:20px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 footer a{color:var(--muted)}
+.doc{max-width:720px;padding-bottom:20px}
+.doc h1{font-size:clamp(30px,6vw,44px);margin:36px 0 6px}
+.doc h2{font-size:21px;margin:34px 0 10px}
+.doc p,.doc li{color:var(--muted)}
+.doc ul{padding-left:20px}
+.doc li{margin:6px 0}
+.doc strong{color:var(--text);font-weight:600}
